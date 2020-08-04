@@ -3,6 +3,7 @@ import initialData from './data/initial_data.json';
 import Menu from './components/Menu';
 import BannerMain from './components/BannerMain';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <Carousel category={initialData.category[3]} />
       <Carousel category={initialData.category[4]} />
       <Carousel category={initialData.category[5]} />
+
+      <Footer/>
     </div>
   );
 }
