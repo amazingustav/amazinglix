@@ -7,13 +7,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div style={{ background: "#141414" }}>
       <Menu />
       
       <BannerMain
         videoTitle={initialData.category[0].videos[0].title}
         url={initialData.category[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área"}
+        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
       />
 
       <Carousel
